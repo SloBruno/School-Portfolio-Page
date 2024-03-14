@@ -17,6 +17,7 @@ nav{
     justify-content: space-between;
     padding: 0 20px;
     font-family: "Montserrat";
+    position: fixed;
 
 }
 
@@ -25,12 +26,16 @@ nav h3{
     font-size: 20px;
 }
 
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
 #nav-options{
     display: flex;
     align-items: center;
     gap: 17px;
     font-family: "Bitter";
-
 }
 
 #options{
@@ -43,7 +48,7 @@ nav h3{
     height: 290px;
     background: 
     linear-gradient(rgba(29, 29, 29, 0.5),rgba(29, 29, 29, 0.5)),
-    url("https://lh3.googleusercontent.com/h7I7B76aD17O-wyz5Rs_24uLaweAyiE4IUU8Vq9vv3ZvHIhArr9IHDkJDElnRaJHg8MbLZqWs9UQNTSEUFgDYgo") ;
+    url("./img/livro.jpg") ;
     background-position: 0;
     background-size: cover;
     display: flex;
@@ -55,5 +60,158 @@ h1{
     color: white;
     font-size: 58pt;
     font-family: "Montserrat";
+}
 
+#three-texts{
+    margin-top: 25px;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.type-texts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.type-text{
+    text-align: center;
+    font-size: 21pt;
+    font-family: "Bitter";
+    font-weight: 700;
+}
+
+.type-text p{
+    margin-top: 15px;
+}
+
+.img-text-1{
+    height: 350px;
+    width: 350px;
+    background-image: url("./img/texto-dissertativo.jpeg");
+    background-size: cover;
+    background-position: 1;
+}
+
+.img-text-2{
+    height: 350px;
+    width: 350px;
+    background-image: url("./img/texto-descritivo.jpeg");
+    background-size: cover;
+    background-position: 1;
+}
+
+.img-text-3{
+    height: 350px;
+    width: 350px;
+    background-image: url("./img/texto-narrativo.jpeg");
+    background-size: cover;
+    background-position: 1;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 23pt;
+    text-align: center;
+}
+
+#miguel, #verbs{
+    margin-top: 80px
+}
+
+#miguel p{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 18pt;
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+.paragraph{
+    margin-top: 30px;
+    display: flex;
+    font-family: "Montserrat";
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.line{
+    display: flex;
+}
+
+.verb{
+    font-weight: 900;
+}
+.sheet{
+    width: 100%;
+    height: 490px;
+}
+
+#sheet{
+    margin-top: 30px;
+}
+
+.doc{
+    margin: 60px auto;
+    width: 50% ;
+    height: 479px;
+}
+
+.map-img{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 661px;
+    height: auto;
+    align-self: center;
+}
+
+.doc2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 60%;
+    align-self: center;
+    height: 974px;
+}
+
+.last{
+    margin-bottom: 80px;
+}
+
+.hamburguer{
+    display: none;
+    position: absolute;
+    height: 110px;
+    width: 220px;
+    top: 55px;
+    right: 30px;
+    background-color: black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    align-items: center;
+}
+
+
+.hamburguer-container{
+    width: 70%;
+    margin: 15px auto;
+}
+
+.hamburguer p{
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.hamburguer p:hover{
+    color: rgba(66, 66, 66, 0.938);
+    display: flex;
+    margin-bottom: 10px;
 }
